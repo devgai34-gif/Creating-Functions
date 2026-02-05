@@ -47,10 +47,10 @@ function tryToBuy(currentBudget) {
 // 3. Проверяем работу программы
 console.log("--- Проверка покупки ---");
 
-// Допустим, у нас есть 200$
+// у нас есть 200$
 tryToBuy(200); 
 
-// А теперь, допустим, мы накопили 400$
+// А теперь, мы накопили 400$
 tryToBuy(400);
 
 /**
@@ -79,9 +79,9 @@ let ladaModel = "Lada Vesta";
 let nivaModel = "Niva Travel";
 let vazModel = "Vaz 2107";
 
-// 2. Создаём функцию, которая начинается с глагола
+// 2. Создаём функцию
 // Название: checkCarStatus (Проверить статус машины)
-// Отвечает на вопрос "Что сделать?": check (проверить)
+
 function checkCarStatus(carName) {
     console.log("Checking the condition of: " + carName);
     console.log(carName + " is ready to go!");
